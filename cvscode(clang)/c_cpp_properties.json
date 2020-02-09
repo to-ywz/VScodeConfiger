@@ -1,0 +1,33 @@
+{
+    "configurations": [{
+        "name": "MinGW",
+        "includePath": [
+            "${workspaceFolder}",
+            "D:/Clang/LLVM/lib/clang/9.0.0/include",
+            "D:/Clang/LLVM/include",
+            "D:/Clang/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/include",
+            "D:/Clang/mingw64/x86_64-w64-mingw32/include"
+        ],
+        "browse": {
+            "path": [
+                "${workspaceFolder}/*",
+                "D:/Clang/LLVM/lib/clang/9.0.0/include/**",
+                "D:/Clang/LLVM/include/**",
+                "D:/Clang/mingw64/lib/gcc/x86_64-w64-mingw32/8.1.0/includ/*",
+                "D:/Clang/mingw64/x86_64-w64-mingw32/include/**"
+            ],
+            "limitSymbolsToIncludedHeaders": true,
+            "databaseFilename": ""
+        },
+        "defines": [
+            "_DEBUG",
+            "UNICODE",
+            "_UNICODE"
+        ],
+        "compilerPath": "E:/LLVM/bin/gcc.exe",
+        "cStandard": "c11",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "clang-x64"
+    }],
+    "version": 4
+}

@@ -1,0 +1,21 @@
+{
+    // 将设置放入此文件中以覆盖默认值和用户设置。
+ 
+    "files.defaultLanguage": "c", // ctrl+N新建文件后默认的语言
+    "editor.formatOnType": true,
+    "editor.snippetSuggestions": "top",
+    "C_Cpp.clang_format_sortIncludes": true,
+    "C_Cpp.errorSquiggles": "Disabled",
+    "C_Cpp.autocomplete": "Disabled",
+    "clang.cflags": [ // C
+        "--target= x86_64-w64-mingw",
+        "-std=c11",
+        "-Wall"
+    ],
+    "clang.cxxflags": [ // C++
+        "--target= x86_64-w64-mingw",
+        "-std=c++17",
+        "-Wall"
+    ],
+    "window.zoomLevel": 0,
+}
